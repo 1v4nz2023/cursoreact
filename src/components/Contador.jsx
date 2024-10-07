@@ -2,7 +2,7 @@ import { useIncreaseCounter } from "../hooks/useIncreaseCounter"
 
 export const Contador = () => {
 
-    const {cuenta, aumentarCuenta} = useIncreaseCounter(0);
+    const {cuenta, aumentarCuenta} = useIncreaseCounter(1);
 
     return (
     <>

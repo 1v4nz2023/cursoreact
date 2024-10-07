@@ -1,7 +1,7 @@
 import { useState } from "react"
 
-export const useIncreaseCounter = () => {
-    const [cuenta, setCuenta] = useState(0)
+export const useIncreaseCounter = (valor) => {
+    const [cuenta, setCuenta] = useState(valor)
        const aumentarCuenta = ()=>{
         setCuenta(cuenta+1)
     }  
